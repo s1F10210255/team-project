@@ -13,3 +13,10 @@ h1{
     background-color: #0005;
     padding-right: 50px;
 }
+#display {
+    display: flex;
+    flex-wrap: wrap;
+}
+#sidemenu{
+    background-color: #fff5;
+}
