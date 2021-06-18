@@ -1,6 +1,14 @@
 body{
     background-image: url("https://thumb.ac-illust.com/b4/b4689e2b0b8c631814499928ee2ac4b2_t.jpeg");
+}
+
+h1{
+    text-align: center;
+
+}
+
+.left{
     background-color: #cccccc;
     margin: 10px 0 10px 0;
-    width: 30%;
+    width: 20%;
 }
