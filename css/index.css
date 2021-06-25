@@ -4,10 +4,10 @@ body{
 
 h1{
     text-align: center;
-
 }
 
 div .left{
     margin: 10px 0 10px 0;
     width: 20%;
+    background-color: #cccccc;
 }
