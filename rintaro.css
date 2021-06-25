@@ -6,3 +6,84 @@ span.power-up{
     font-family: "Arial", "メイリオ";
     font-size: 35px;
 }
+.side-menu{
+    float: left;
+    width: 30%;
+    margin:10px 0 10px 0;
+}
+.content{
+    animation: SlideIn 1s;
+
+    float: left;
+    width: 70%;
+    margin: 10px 0 10px 0;
+}
+.menu {
+    width: 300px;
+}
+
+.menu {
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(154, 165, 165);
+    display: block;
+    text-decoration: solid;
+    font-size: 20px;
+    padding: 10px;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    transition-property: all;
+    border-bottom-right-radius: 80px 80px;
+}
+.menu-li{
+    display: block;
+    text-decoration: solid;
+    font-size: 20px;
+    padding: 10px;
+    transition-delay: 0s;
+    transition-duration: 500ms;
+    transition-property: all;
+}
+label {
+    display: block;
+    block-size: auto;
+    writing-mode: horizontal-tb;
+    margin: 0 0 3px 0;
+    padding : 15px;
+    color :rgb(253, 247, 247);
+    background : rgb(79, 177, 184);
+}
+
+ul {
+    display: box;
+    margin: 1;
+    padding: 3;
+    list-style: square;
+}
+.image{
+
+}
+.image{
+    animation: SlideIn 1.6s ;
+  }
+  
+  @keyframes SlideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(64px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  p3 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin: 20px;
+}
+.music{
+    line-height:  150%;
+}
