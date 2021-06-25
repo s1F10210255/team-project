@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://unison-s-g.com/2021/assets/img/tour-patrickvegee/main_photo_pc_2.jpg");
+    background-image: url("https://www.sma.co.jp/images/15/84e/d8abfad48c0a4beec37ed56239519.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -62,4 +62,7 @@ p {
     background: #f4f4f4;
     border-left: solid 6px #03A9F4;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+.wikitabke > a:link, a:visited, a:hover, a:active{
+    color: #FFCCBC55;
 }
