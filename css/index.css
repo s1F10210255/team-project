@@ -7,8 +7,7 @@ h1{
 
 }
 
-.left{
-    background-color: #cccccc;
+div .left{
     margin: 10px 0 10px 0;
     width: 20%;
 }
