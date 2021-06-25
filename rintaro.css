@@ -13,16 +13,16 @@ span.power-up{
 }
 .content{
     animation: SlideIn 1s;
-
     float: left;
     width: 70%;
     margin: 10px 0 10px 0;
 }
-.menu {
-    width: 300px;
+
+.menu{
+    width:300px;
 }
 
-.menu {
+.menu{
     padding: 15px;
     text-decoration: none;
     color: #000;
@@ -62,10 +62,7 @@ ul {
     list-style: square;
 }
 .image{
-
-}
-.image{
-    animation: SlideIn 1.6s ;
+    animation: SlideIn 1.8s ;
   }
   
   @keyframes SlideIn {
@@ -84,6 +81,7 @@ ul {
     font-family: sans-serif;
     margin: 20px;
 }
+
 .music{
     line-height:  150%;
 }
