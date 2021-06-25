@@ -6,6 +6,11 @@ body{
 h1{
     color: #D7CCC8;
 }
+h2{
+    border-bottom: 3px solid #ff5;
+    padding-right: 15px;
+    display: inline-block;
+}
 h4{
     color: #000;
 }
@@ -50,7 +55,7 @@ p{
 }
 p {
     margin: 0; 
-    padding: 0;
+    padding: 1px;
 }
 
 .wikitable{
@@ -60,8 +65,18 @@ p {
     margin: 1em 0;
     background: #f4f4f4;
     border-left: solid 6px #03A9F4;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 2px 3px rgba(190, 182, 182, 0.33);
 }
 .wikitabke > a:link, a:visited, a:hover, a:active{
     color: #FFCCBC55;
+}
+
+.video{
+    background-color: #f4f4f4;
+    color: black;
+    padding: 0.1em 0.4em 0em 0.3em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #03A9F4;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
 }
