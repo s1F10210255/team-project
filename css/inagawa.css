@@ -5,11 +5,18 @@ body{
     color: #fff;
 }
 h1{
-    color: #fff;
+    color: #D7CCC8;
+}
+h4{
+    color: #000;
+}
+p{
+    color: #000;
 }
 .member li{
+    height:100%;
+    box-sizing:border-box;
     float: left;
-    background-color: #5005;
     padding-left: 30px;
     padding-right: 30px;
     list-style-type:none;
@@ -19,8 +26,40 @@ h1{
     flex-wrap: wrap;
 }
 #sidemenu{
-    background-color: #fff5;
+    background-color: #0000;
+    padding-right: 20px;
+    border-right: 2px solid #D7CCC8;
+    color: #D7CCC8;
 }
+
+#sidemenu > a:link, a:visited, a:hover, a:active{
+    color: #D7CCC8;
+    background-color: #FFCCBC55;
+}
+
 #main{
     padding-left: 30px;
+}
+
+.member{
+    height: 130px;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #03A9F4;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+p {
+    margin: 0; 
+    padding: 0;
+}
+
+.wikitable{
+    background-color: #f4f4f4;
+    color: black;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 6px #03A9F4;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
 }
