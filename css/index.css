@@ -9,6 +9,13 @@ h1{
 .left{
     margin: 10px 0 10px 0;
     width: 20%;
-    background-color: #cccccc;
     float: left;
+}
+
+#title{
+    background-color: #cccccc;
+}
+
+.band{
+    background-color: #cccccc;
 }
