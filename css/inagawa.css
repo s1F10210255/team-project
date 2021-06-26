@@ -4,7 +4,7 @@ body{
     color: #fff;
 }
 h1{
-    color: #D7CCC8;
+    color: #444;
 }
 h2{
     border-bottom: 3px solid #ff5;
@@ -12,10 +12,10 @@ h2{
     display: inline-block;
 }
 h4{
-    color: #000;
+    color: #444;
 }
 p{
-    color: #000;
+    color: #444;
 }
 .member li{
     height:100%;
@@ -43,6 +43,10 @@ p{
 
 #main{
     padding-left: 30px;
+
+    transition-delay: 0s;
+    transition-duration: 500ms;
+    transition-property: all;
 }
 
 .member{
