@@ -41,6 +41,7 @@ li {
 .sidebar > ul {
   margin: 0px;
   padding: 0 10px 0 10px;
+  list-style: none;
 }
 
 .sidebar > li {
