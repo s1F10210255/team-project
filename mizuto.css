@@ -38,20 +38,22 @@ li {
   margin: 10px 0 10px 0;
 }
 
-.sidebar ul {
+.sidebar > ul {
   margin: 0px;
   padding: 0 10px 0 10px;
 }
 
-.sidebar li {
+.sidebar > li {
   display: block;
   margin: 0px 0px 5px 0px;
   padding: 5px 5px 5px 5px;
-  border-right: solid 2px #ccc;
-  background-color: #eee;
+  border-right: solid 2px #00f;
+  background-color: #444;
+  border-bottom: #0ff;
+  color: #fff;
 }
 
-.sidebar a {
+.sidebar > a {
   color: #00f;
   text-decoration: none;
 }
