@@ -76,22 +76,6 @@ li {
   background-color: #444;
 }
 
-.under > h3 {
-  font-size: 16px;
-  color: #fff;
-  border-bottom: solid 2px #0ff;
-}
-
-.under > p {
-  font-size: 12px;
-}
-
-.under > a {
-  color: #fff;
-  margin: 10px 10px 10px 10px; 
-}
-
-
 #top {
   position: fixed;
   left: 10px;
