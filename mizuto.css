@@ -47,10 +47,6 @@ li {
   display: block;
   margin: 0px 0px 5px 0px;
   padding: 5px 5px 5px 5px;
-  border-right: solid 2px #00f;
-  background-color: #444;
-  border-bottom: #0ff;
-  color: #fff;
 }
 
 .sidebar > a {
