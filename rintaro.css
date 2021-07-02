@@ -1,3 +1,33 @@
+span.detail-up {
+    position: relative;
+    line-height: 1.4;
+    padding:0.25em 1em;
+    display: inline-block;
+    top:0;
+  }
+  
+  span.detail-up:before, h1:after { 
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 8px;
+    height: 100%;
+    display: inline-block;
+  }
+  span.detail-up:before {
+    border-left: solid 1px black;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    left: 0;
+  }
+  span.detail-up:after {
+    content: '';
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+    right: 0;
+  }
+
 span.detail-up{
     font-family: fantasy;
     font-size: 35px;
@@ -34,7 +64,6 @@ span.power-up{
     transition-delay: 1s;
     transition-duration: 1s;
     transition-property: all;
-    border-bottom-right-radius: 80px 80px;
 }
 .menu-li{
     display: block;
@@ -76,7 +105,7 @@ ul {
     }
   }
   
-  p3 {
+  .p3 {
     font-size: 1rem;
     font-family: sans-serif;
     margin: 20px;
@@ -85,3 +114,18 @@ ul {
 .music{
     line-height:  150%;
 }
+
+body{
+    background-color:rgba(230, 230, 230, 0.925);
+}
+
+.music {
+    background-attachment: fixed;
+    background-image:url("https://cdn2.veltra.com/ptr/20200827113604_1814838397_14680_0.jpg");
+    background-size:  cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  
+  
