@@ -47,8 +47,12 @@ li {
   display: block;
   margin: 0px 0px 5px 0px;
   padding: 5px 5px 5px 5px;
+  text-decoration:none;
 }
 
+.sidebar > p {
+  text-decoration: none;
+}
 .sidebar > a {
   color: #00f;
   text-decoration: none;
