@@ -47,10 +47,6 @@ li {
   display: block;
   margin: 0px 0px 5px 0px;
   padding: 5px 5px 5px 5px;
-  background-color: #444;
-  border-bottom: solid #0ff;
-  text-decoration:none;
-  border-right: #00f;
 }
 
 .sidebar > p {
@@ -76,12 +72,7 @@ li {
   margin: 0 10px 10px 20px;
 }
 
-.under {
-  border-top: solid 1px #0ff;
-  font-family: sans-serif;
-  text-align: center;
-  background-color: #444;
-}
+
 
 #top {
   position: fixed;
