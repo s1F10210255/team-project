@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://thumb.ac-illust.com/b4/b4689e2b0b8c631814499928ee2ac4b2_t.jpeg");
+    background-image: url("https://goodspress.s3.ap-northeast-1.amazonaws.com/cms/wp-content/uploads/2021/01/0114_ie300_3.jpg");
 }
 
 h1{
@@ -21,4 +21,20 @@ h1{
 
 .band{
     background-color: #cccccc;
+}
+
+.right_blue{
+    color: aqua;
+}
+
+.sentence{
+    font-size: 20px;
+    background-color: azure;
+}
+
+#right{
+    width: 80%;
+    float: left;
+    text-decoration: none;
+    color: rgb(215, 190, 223);
 }

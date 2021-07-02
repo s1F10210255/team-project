@@ -49,6 +49,9 @@ li {
   padding: 5px 5px 5px 5px;
 }
 
+.sidebar > p {
+  text-decoration: none;
+}
 .sidebar > a {
   color: #00f;
   text-decoration: none;
@@ -69,12 +72,7 @@ li {
   margin: 0 10px 10px 20px;
 }
 
-.under {
-  border-top: solid 1px #0ff;
-  font-family: sans-serif;
-  text-align: center;
-  background-color: #444;
-}
+
 
 #top {
   position: fixed;
