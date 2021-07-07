@@ -15,26 +15,19 @@ h1{
     color: #000;
 }
 
-#title{
-    background-color: #cccccc;
-}
-
-.band{
-    background-color: #cccccc;
+.left{
+    background-color: #ffffffcc;
 }
 
 .right_blue{
-    color: aqua;
+    color: #077;
 }
 
 .sentence{
     font-size: 20px;
-    background-color: azure;
 }
 
 #right{
-    width: 80%;
-    float: left;
+    background-color: #affd;
     text-decoration: none;
-    color: rgb(215, 190, 223);
 }
