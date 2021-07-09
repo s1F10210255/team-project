@@ -116,7 +116,8 @@ ul {
 }
 
 body{
-    background-color:rgba(230, 230, 230, 0.925);
+    background: linear-gradient(rgb(255, 255, 255), 60%, rgb(100, 153, 155));
+    background-color:rgba(187, 157, 157, 0.925);
 }
 
 .music {
